@@ -1,6 +1,5 @@
 #include "MenuController.h"
 
-
 MenuController::MenuController(const char * display_name, LCD * output)
   : Menu(display_name, output)
 {

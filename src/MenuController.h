@@ -4,6 +4,7 @@
 #include "Menu.h"
 #include "LinkedList.h"
 
+// MenuController is a menu class that holds other menus.
 class MenuController : public Menu {
 public:
   MenuController(const char * display_name, LCD * output);

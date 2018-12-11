@@ -3,10 +3,11 @@
 
 #include "Menu.h"
 
+// Menu to allow control of numeric values.
 template <typename V>
 class MenuNumeric : public Menu {
 public:
-  
+
   /** Callback: typedef for callback function.
 
     Function signature must be `void(V &)`; the callback will be passed the

@@ -3,6 +3,7 @@
 
 #include "Menu.h"
 
+// MenuSelection is an item in a MenuController that activates a callback
 class MenuSelection : public Menu {
 public:
   typedef void (*Callback)(int&);

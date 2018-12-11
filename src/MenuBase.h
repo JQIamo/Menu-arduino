@@ -1,12 +1,13 @@
 #ifndef MENU_BASE_H
 #define MENU_BASE_H
 
-// #define MENU_SERIAL_DEBUG
+//#define MENU_SERIAL_DEBUG
 
 //#include "Arduino.h"
 
 #include "LCD.h"
 
+// Abstract menu class for others to inherit from
 class Menu {
 public:
   Menu(const char * display_name, LCD * display);
@@ -23,11 +24,5 @@ public:
 protected:
   LCD * _display;
 };
-
-
-
-
-
-
 
 #endif
